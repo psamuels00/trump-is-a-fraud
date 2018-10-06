@@ -35,8 +35,6 @@
             width: 120px;
             position: absolute;
             top: 20px;
-        }
-        cartoon img.left {
             left: 5%;
             -webkit-transform: rotate(-10deg);
             -moz-transform: rotate(-10deg);
@@ -44,37 +42,55 @@
             -ms-transform: rotate(-10deg);
             transform: rotate(-10deg);
         }
-        cartoon img.left:hover {
+        cartoon img:hover {
             -webkit-transform: rotate(-5deg);
             -moz-transform: rotate(-5deg);
             -o-transform: rotate(-5deg);
             -ms-transform: rotate(-5deg);
             transform: rotate(-5deg);
         }
-        cartoon img.right {
-            right: 5%;
-            -webkit-transform: rotate(10deg);
-            -moz-transform: rotate(10deg);
-            -o-transform: rotate(10deg);
-            -ms-transform: rotate(10deg);
-            transform: rotate(10deg);
+
+        ribbon {
+            background-color: #3f97ea;
+            overflow: hidden;
+            white-space: nowrap;
+            position: absolute;
+            right: -50px;
+            top: 40px;
+            -webkit-transform: rotate(45deg);
+               -moz-transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+                 -o-transform: rotate(45deg);
+                    transform: rotate(45deg);
+             -webkit-box-shadow: 0 0 10px #888;
+               -moz-box-shadow: 0 0 10px #888;
+                    box-shadow: 0 0 10px #888;
+            text-shadow: 0 0 5px #444;
         }
-        cartoon img.right:hover {
-            -webkit-transform: rotate(5deg);
-            -moz-transform: rotate(5deg);
-            -o-transform: rotate(5deg);
-            -ms-transform: rotate(5deg);
-            transform: rotate(5deg);
+        ribbon:hover {
+            background-color: #d00;
+        }
+        ribbon a {
+            color: #fff;
+            display: block;
+            font-family: 'Roboto', sans-serif;
+            font-size: 12pt;
+            margin: 1px 0;
+            padding: 10px 50px;
+            text-align: center;
+            text-decoration: none;
         }
 
     </style>
 </head>
 <body>
-
     <cartoon>
-        <img class="left" src="TrumpCartoon.png" />
-        <img class="right" src="TrumpCartoon.png" />
+        <img src="TrumpCartoon.png" />
     </cartoon>
+
+    <ribbon>
+        <a href="https://github.com/psamuels00/trump-is-a-fraud">Fork me on GitHub</a>
+    </ribbon>
 
     <node>
         <word class="c1">TRUMP</word>
