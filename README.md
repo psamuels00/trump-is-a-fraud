@@ -1,4 +1,4 @@
-# trump-is-a-fraud
+# Trump is a Fraud
 
 Morphological demonstration that Trump is a fraud.  [See, see!][tf].
 
