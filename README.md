@@ -2,7 +2,7 @@
 
 Morphological demonstration that Trump is a fraud.  [See, see!][tf].
 
-[tf]: http://htmlpreview.github.io/?https://github.com/psamuels00/trump-is-a-fraud/blob/master/index.html
+[tf]: https://psamuels00.github.io/trump-is-a-fraud/
 
 This project seeks to demonstrate that, based solely on the similarity of Trump's name
 to the word "fraud," it is reasonable to assume the intimation that
