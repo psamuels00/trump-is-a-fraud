@@ -26,9 +26,55 @@
             font-family: 'Roboto', sans-serif;
             font-weight: 300;
         }
+
+        cartoon {
+            position: relative;
+            display: block;
+        }
+        cartoon img {
+            width: 120px;
+            position: absolute;
+            top: 20px;
+        }
+        cartoon img.left {
+            left: 5%;
+            -webkit-transform: rotate(-10deg);
+            -moz-transform: rotate(-10deg);
+            -o-transform: rotate(-10deg);
+            -ms-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+        }
+        cartoon img.left:hover {
+            -webkit-transform: rotate(-5deg);
+            -moz-transform: rotate(-5deg);
+            -o-transform: rotate(-5deg);
+            -ms-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+        }
+        cartoon img.right {
+            right: 5%;
+            -webkit-transform: rotate(10deg);
+            -moz-transform: rotate(10deg);
+            -o-transform: rotate(10deg);
+            -ms-transform: rotate(10deg);
+            transform: rotate(10deg);
+        }
+        cartoon img.right:hover {
+            -webkit-transform: rotate(5deg);
+            -moz-transform: rotate(5deg);
+            -o-transform: rotate(5deg);
+            -ms-transform: rotate(5deg);
+            transform: rotate(5deg);
+        }
+
     </style>
 </head>
 <body>
+
+    <cartoon>
+        <img class="left" src="TrumpCartoon.png" />
+        <img class="right" src="TrumpCartoon.png" />
+    </cartoon>
 
     <node>
         <word class="c1">TRUMP</word>
