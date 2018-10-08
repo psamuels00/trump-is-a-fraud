@@ -1,11 +1,11 @@
 # Trump is a Fraud
 
-Morphological demonstration that Trump is a fraud.  [See, see!][tf].
+Morphological demonstration that Donald Trump is a fraud.  [See, see!][tf].
 
 [tf]: https://psamuels00.github.io/trump-is-a-fraud/
 
-This project seeks to demonstrate that, based solely on the similarity of Trump's name
-to the word "fraud," it is reasonable to assume the intimation that
+This project seeks to demonstrate that, based solely on the similarity of
+Trump's name to the word "fraud," it is reasonable to assume the claim that
 
 > Trump really is a fraud.
 
