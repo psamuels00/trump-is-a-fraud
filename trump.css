@@ -97,3 +97,10 @@ node comment {
     font-weight: 300;
 }
 
+
+/* -------- hidden -------- */
+
+backstage {
+    display: none;
+}
+
