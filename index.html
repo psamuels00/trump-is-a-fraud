@@ -1,125 +1,29 @@
 <html>
 <head>
+    <link href="image/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:700|Roboto:100,300,400" rel="stylesheet">
-    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon" />
+    <link href="trump.css" rel="stylesheet" type="text/css">
+
+    <script type="text/Javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/Javascript" src="trump.js"></script>
+
     <meta name="keywords" content="Donald,Trump,fraud,morphology,morph" />
     <meta name="description" content="Morphological demonstration that Donald Trump is a fraud." />
     <meta property="og:title" content="Trump is a Fraud!">
     <meta property="og:image" content="TrumpCartoon.png">
     <meta property="og:description" content="Morphological demonstration that Donald Trump is a fraud.">
-    <script type="text/Javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script type="text/Javascript">
-        $(function() {
-            $('ribbon').on({
-                mouseenter: function() {
-                    $('#fork').show();
-                },
-                mouseleave: function() {
-                    $('#fork').hide();
-                },
-            });
-        });
-    </script>
-    <style>
-        cartoon {
-            position: relative;
-        }
-        cartoon img {
-            position: absolute;
-        }
-        cartoon img#trump {
-            top: 20px;
-            left: 30px;
-            width: 120px;
-            -webkit-transform: rotate(-10deg);
-            -moz-transform: rotate(-10deg);
-            -o-transform: rotate(-10deg);
-            -ms-transform: rotate(-10deg);
-            transform: rotate(-10deg);
-        }
-        cartoon img#trump:hover {
-            -webkit-transform: rotate(-5deg);
-            -moz-transform: rotate(-5deg);
-            -o-transform: rotate(-5deg);
-            -ms-transform: rotate(-5deg);
-            transform: rotate(-5deg);
-        }
-        cartoon img#fork {
-            top: 130px;
-            width: 100px;
-            left: 72px;
-            display: none;
-        }
-
-        body {
-            overflow-x: hidden;
-        }
-        ribbon {
-            background-color: #3f97ea;
-            overflow: hidden;
-            white-space: nowrap;
-            position: absolute;
-            right: -50px;
-            top: 40px;
-            -webkit-transform: rotate(45deg);
-            -moz-transform: rotate(45deg);
-            -ms-transform: rotate(45deg);
-            -o-transform: rotate(45deg);
-            transform: rotate(45deg);
-            -webkit-box-shadow: 0 0 10px #888;
-            -moz-box-shadow: 0 0 10px #888;
-            box-shadow: 0 0 10px #888;
-            text-shadow: 0 0 5px #444;
-        }
-        ribbon:hover {
-            background-color: #d00;
-        }
-        ribbon a {
-            color: #fff;
-            display: block;
-            font-family: 'Roboto', sans-serif;
-            font-size: 12pt;
-            margin: 1px 0;
-            padding: 10px 50px;
-            text-align: center;
-            text-decoration: none;
-        }
-
-        node {
-            display: block;
-            text-align: center;
-            margin-top: 20px;
-        }
-        node word {
-            display: block;
-            font-size: 70pt;
-            font-family: 'Roboto Mono', monospace;
-            font-weight: 700;
-            letter-spacing: 0.5em;
-            padding-left: 0.5em;
-            line-height: 1em;
-        }
-        node word.c1 { color: #000; }
-        node word.c2 { color: #333; }
-        node word.c3 { color: #666; }
-        node word.c4 { color: #999; }
-        node comment {
-            display: block;
-            font-size: 12pt;
-            font-family: 'Roboto', sans-serif;
-            font-weight: 300;
-        }
-    </style>
 </head>
 <body>
     <cartoon>
         <img id="fork" src="image/Fork.png" />
-        <img id="trump" src="image/Trump.png" />
+        <img id="trump" src="image/Trump.png" class="jiggle_left" />
     </cartoon>
 
     <ribbon>
         <a href="https://github.com/psamuels00/trump-is-a-fraud">Fork me on GitHub</a>
     </ribbon>
+
+    <!-- ======== -->
 
     <node>
         <word class="c1">TRUMP</word>
@@ -173,7 +77,9 @@
     <node><word class="c1">FRAUD</word></node>
     -->
 
-    <div style="display: none;">
+    <!-- ======== -->
+
+    <backstage>
         <hr/>
 
         <p>
@@ -199,7 +105,7 @@
         <p>
             Q.E.D.
         </p>
-    </div>
+    </backstage>
 
 </body>
 </html>
