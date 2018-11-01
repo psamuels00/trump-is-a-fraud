@@ -1,10 +1,10 @@
 /* -------- Trump and fork cartoon image -------- */
 
 cartoon {
-    position: relative;
+    position: absolute;
 }
 cartoon img {
-    position: absolute;
+    position: relative;
 }
 cartoon img#trump {
     top: 20px;
@@ -32,6 +32,18 @@ cartoon img#fork {
     width: 100px;
     left: 72px;
     display: none;
+    animation-duration: 1s;
+    animation-name: pierce;
+}
+
+@keyframes pierce {
+    from {
+        top: 230px;
+    }
+
+    to {
+        top: 130px;
+    }
 }
 
 /* -------- "Fork me" ribbon -------- */
