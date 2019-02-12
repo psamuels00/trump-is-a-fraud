@@ -4,8 +4,12 @@ body {
     font-size: 12px;
 }
 
-.poster-frame {
+a {
     color: white;
+    text-decoration: none;
+}
+
+.poster-frame {
     background-color: #e04040;
     font-size: 20vw;
     font-weight: bold;
