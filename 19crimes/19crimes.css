@@ -1,0 +1,10 @@
+html {
+    background-image: url('../image/19CrimesTrumpWine.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: darkorange;
+    background-size: contain;
+    -o-background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+}
