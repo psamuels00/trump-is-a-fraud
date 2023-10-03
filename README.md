@@ -13,3 +13,14 @@ is true.  Little further proof is needed, but for the highly skeptical, consider
 whole of the man's life, especially his involvement with banks and lawsuits.
 
 Q.E.D.
+
+----
+
+**Update Oct 2, 2023**
+
+If you are somehow _still_ not convinced, take a look at his _[rap sheet][rap]_ >
+Civil Cases > New York Trump Organization:
+
+> Judge rules Trump committed fraud, massively overvalued assets
+
+[rap]: https://www.msnbc.com/trump-trials-documents-library
